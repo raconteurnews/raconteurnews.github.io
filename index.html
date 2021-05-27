@@ -9,7 +9,7 @@
 <link rel="shortcut icon" type="image/png" href="img.png"/>
 
 
-  
+
   
 
 <link rel="canonical" href="">
@@ -40,12 +40,15 @@
   
 
   
-    <style>@font-face {
+    <style>
+    
+    
+    @font-face {
   font-display: swap;
   font-family: 'AGaramondPro';
   font-style: italic;
   font-weight: 600;
-  src: local("Adobe Garamond Pro SemiboldItalic"), url("https://www.theatlantic.com/packages/fonts/garamond/AGaramondPro-SemiboldItalic.woff2") format("woff2"), url("https://www.theatlantic.com/packages/fonts/garamond/AGaramondPro-SemiboldItalic.woff") format("woff"); }
+  src: local("Adobe Garamond Pro SemiboldItalic"), url("./cmunrm.woff") format("woff"), url("./cmunrm.woff") format("woff");}
 
   @font-face {
   font-display: swap;
@@ -60,14 +63,14 @@
   font-family: 'AGaramondPro';
   font-style: italic;
   font-weight: 700;
-  src: local("Adobe Garamond Pro BoldItalic"), url("https://www.theatlantic.com/packages/fonts/garamond/AGaramondPro-BoldItalic.woff2") format("woff2"), url("https://www.theatlantic.com/packages/fonts/garamond/AGaramondPro-BoldItalic.woff") format("woff"); }
+  src: local("Adobe Garamond Pro BoldItalic"), url("./cmunrm.woff") format("woff"), url("./cmunrm.woff") format("woff"); }
 
 @font-face {
   font-display: swap;
   font-family: 'AGaramondPro';
   font-style: normal;
   font-weight: 400;
-  src: local("Adobe Garamond Pro Regular"), url("https://www.theatlantic.com/packages/fonts/garamond/AGaramondPro-Regular.woff2") format("woff2"), url("https://www.theatlantic.com/packages/fonts/garamond/AGaramondPro-Regular.woff") format("woff"); }
+  src: local("Adobe Garamond Pro Regular"), url("./cmunrm.woff") format("woff"), url("./cmunrm.woff") format("woff"); }
 
 @font-face {
   font-display: swap;
@@ -115,7 +118,7 @@
   font-style: normal;
   font-weight: 400;
   /* stylelint-disable indentation */
-  src: url("https://www.theatlantic.com/packages/fonts/graphik/Graphik-Regular-Web.woff2") format("woff2"), url("https://www.theatlantic.com/packages/fonts/graphik/Graphik-Regular-Web.woff") format("woff");
+  src: url("./cmunss.woff") format("woff"), url("./cmunss.woff") format("woff");
   /* stylelint-enable indentation */ }
 
 @font-face {
@@ -124,7 +127,7 @@
   font-style: normal;
   font-weight: 600;
   /* stylelint-disable indentation */
-  src: url("https://www.theatlantic.com/packages/fonts/graphik/Graphik-Semibold-Web.woff2") format("woff2"), url("https://www.theatlantic.com/packages/fonts/graphik/Graphik-Semibold-Web.woff") format("woff");
+  src: url("./cmunss.woff") format("woff"), url("./cmunss.woff") format("woff");
   /* stylelint-enable indentation */ }
 
 /*# sourceMappingURL=graphik.css.map */
@@ -135,8 +138,7 @@
   font-style: normal;
   font-weight: 400;
   /* stylelint-disable indentation */
-  src: url("https://cdn.theatlantic.com/tng/static/frontend/dist/theatlantic/fonts/lyon/Lyon-Text-Regular.952052f78892.woff2") format("woff2"), url("https://cdn.theatlantic.com/tng/static/frontend/dist/theatlantic/fonts/lyon/Lyon-Text-Regular.840c78933255.woff") format("woff");
-  /* stylelint-enable indentation */ }
+  src: url("./cmunss.woff") format("woff"), url("./cmunss.woff") format("woff");  /* stylelint-enable indentation */ }
 
 @font-face {
   font-display: swap;
@@ -743,7 +745,9 @@ small {
   margin-left: auto;
   margin-right: auto;
   max-width: 1280px;
-  overflow: visible; }
+  margin-bottom: 0px;
+  max-height: 660px;
+  overflow: hidden; }
   @media (min-width: 576px) {
     .l-hp-top {
       display: -webkit-box;
@@ -756,7 +760,7 @@ small {
       width: calc(100% - 32px); } }
   @media (min-width: 1376px) {
     .l-hp-top {
-      width: 1280px; } }
+      width: 1100px; } }
   .l-hp-top > * {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%; }
@@ -941,11 +945,14 @@ small {
 
 @media (min-width: 976px) {
   .l-hp-top__lede {
+    max-height: 700px !important;
+    margin: 0px !important;
+    overflow: hidden;
     -ms-flex-preferred-size: calc(50% - 0px);
         flex-basis: calc(50% - 0px);
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2; } }
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; } }
 
 /* Gulp b2b must be run in order for changes to this file to be relected in
    breakpoints.json. This task is part of the build and also can be run independently */
@@ -8334,7 +8341,7 @@ small {
 
   
 </head>
-<body class="t-homepage">
+<body class="t-homepage" >
   
     <div class="u-hidden"><?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg"><defs>
         <style>
@@ -8443,7 +8450,9 @@ small {
 </gpt-ad>
 
   <nav id="main-navigation--lacroix" class="c-nav c-nav--main--lacroix u-border-box u-smooth-font js-navigation legacy " role="navigation" aria-label="Main menu"> 
-<div class="c-nav__before "></div>
+<!-- <div class="c-nav__before"></div> -->
+
+
 <div class="c-nav__container">
     <a href="#main-content" class="c-skip-link">Skip to content</a>
     <ul id="nav-list" class="c-nav__list c-nav__list--menu ">
@@ -8706,15 +8715,16 @@ small {
       </li> -->
     </ul>
     <ul class="c-nav__list c-nav__list--logos ">
-      <li id="big-a" class="c-nav__item--lacroix c-nav__item--main--lacroix c-nav__big-a">
+      <!-- <li id="big-a" class="c-nav__item--lacroix c-nav__item--main--lacroix c-nav__big-a">
         <a href="/" class="c-nav__link--lacroix" aria-label="the atlantic logo" data-name="nav:big-a-atlantic-logo">
           <img src="img2.png" width="240px" style="position: relative; top:-50px" />
         </a>
-      </li>
+      </li> -->
       <li id="atl-wordmark" class="c-nav__item--lacroix c-nav__item--main--lacroix c-nav__wordmark--lacroix" style="
-      height: 50px;">
+      height: 100px;">
         <!-- <br> -->
-        <h1 style="font-family: 'Chomsky'; font-size: 5vw; margin: 0 0; position: relative; bottom:60px">The Raconteur</h1>
+        <h1 style="font-family: 'Chomsky'; font-size: 5vw; margin: 0 0; ">The Raconteur</h1> 
+        <!-- position: relative; bottom:60px -->
         <!-- <a href="/" class="c-nav__link--lacroix" aria-label="the atlantic watermark" data-name="nav:watermark">
           <svg class="c-nav__icon--lacroix c-nav__atlantic-wordmark--lacroix"><use xlink:href="#icon-atlantic-wordmark"></use></svg>
         </a> -->
@@ -8736,6 +8746,7 @@ small {
       <!-- </li> -->
     </ul>
   </div>
+  <hr style="border-top: 1px solid black;">
 </nav>
 <div class="c-overlay js-overlay is-hidden"></div>
 
@@ -8804,7 +8815,7 @@ small {
         <ul class="o-meta__byline">
           
             <li class="o-meta__author">
-              <a >Vignav Ramesh</a>
+              Vignav Ramesh</a>
             </li>
           
         </ul>
@@ -8995,152 +9006,29 @@ small {
   
 
 </article>
-      
-    </div>
-    <gpt-ad targeting-pos="native-lead-hp"  targeting-native="standard,gift" class="s-native s-native s-native--hp-lede s-native--short-title" format="native" lazy-load="1"
-
-  
-
-  sizes-at-0="native">
-  <gpt-sizeset viewport-size="[0, 0]" sizes="native"></gpt-sizeset>
-</gpt-ad>
-  </section>
-
-  <div class="l-hp-top__off-lede">
-    <div class="l-hp-top__off-lede-stories">
-      
-        
-<article class="c-offlede c-offlede--"
-  
-    id="hp-offlede-0"
-  
->
-
-  
-    <div class="c-offlede__image">
-      <figure class="o-media c-offlede__media">
-        <a class="o-media__object" href="https://www.theatlantic.com/culture/archive/2021/04/oscars-2021-experiment-review/618694/">
-          <picture>
-            
-            <source media="(min-width: 784px)" srcset="https://cdn.theatlantic.com/thumbor/dRAT25xwOUDQt74QSGO1ZI77y4g=/288x162/media/img/mt/2021/04/BWMOSHED_2021_4_25_21_36_6/original.jpg, https://cdn.theatlantic.com/thumbor/Haj2z5ZlKzT1vaWKmO-pBGf26Kc=/576x324/media/img/mt/2021/04/BWMOSHED_2021_4_25_21_36_6/original.jpg 2x">
-            
-            
-            <img class="o-media__img u-lazy--img lazyload" data-srcset="https://cdn.theatlantic.com/thumbor/Haj2z5ZlKzT1vaWKmO-pBGf26Kc=/576x324/media/img/mt/2021/04/BWMOSHED_2021_4_25_21_36_6/original.jpg, https://cdn.theatlantic.com/thumbor/rlzhajfku9_gcZTu9vAJswNF3pg=/1152x648/media/img/mt/2021/04/BWMOSHED_2021_4_25_21_36_6/original.jpg 2x" alt="A stylized still of Regina King at the Oscars">
-          </picture>
-        </a>
-        <noscript><img class="o-media__img u-object-cover" src="https://cdn.theatlantic.com/thumbor/Haj2z5ZlKzT1vaWKmO-pBGf26Kc=/576x324/media/img/mt/2021/04/BWMOSHED_2021_4_25_21_36_6/original.jpg" alt="A stylized still of Regina King at the Oscars"></noscript>
-            
-        
-          <figcaption class="o-media__credit">AMPAS / ABC / Getty</figcaption>
-        
-      </figure>
-    </div>
-  
-
-  <div class="c-offlede__content">
-
-    
-      <h2 class="o-hed c-offlede__hed">
-        <a class="c-offlede__hed-link" href="https://www.theatlantic.com/culture/archive/2021/04/oscars-2021-experiment-review/618694/">
-          A Confusing, Experimental Oscars
-        </a>
-      </h2>
-    
-
-    
-      <div class="o-meta c-offlede__meta">
-        <ul class="o-meta__byline">
-          
-            <li class="o-meta__author">
-              <a href="https://www.theatlantic.com/author/shirley-li/">Shirley Li</a>
-            </li>
-          
-        </ul>
       </div>
-    
+      </section>
+    </main>
+    <br><br>
+    <footer style="
+    padding-top: 15px;
 
-  </div>
-
-</article>
-      
-      
-        
-<article class="c-offlede c-offlede--"
-  
-    id="hp-offlede-1"
-  
->
-
-  
-    <div class="c-offlede__image">
-      <figure class="o-media c-offlede__media">
-        <a class="o-media__object" href="https://www.theatlantic.com/ideas/archive/2021/04/how-pandemic-proof-world/618682/">
-          <picture>
-            
-            <source media="(min-width: 784px)" srcset="https://cdn.theatlantic.com/thumbor/uJ7dqQK_DKfVI-CqIgWZbDoga1g=/288x162/media/img/mt/2021/04/00507F4A_2024_4614_B7E2_10A7F6C78B0C/original.jpg, https://cdn.theatlantic.com/thumbor/eHaURw4LFQ1LCuhJvUE-1sDxHk4=/576x324/media/img/mt/2021/04/00507F4A_2024_4614_B7E2_10A7F6C78B0C/original.jpg 2x">
-            
-            
-            <img class="o-media__img u-lazy--img lazyload" data-srcset="https://cdn.theatlantic.com/thumbor/eHaURw4LFQ1LCuhJvUE-1sDxHk4=/576x324/media/img/mt/2021/04/00507F4A_2024_4614_B7E2_10A7F6C78B0C/original.jpg" alt="An illustration of Earth inflating like a balloon.">
-          </picture>
-        </a>
-        <noscript><img class="o-media__img u-object-cover" src="https://cdn.theatlantic.com/thumbor/eHaURw4LFQ1LCuhJvUE-1sDxHk4=/576x324/media/img/mt/2021/04/00507F4A_2024_4614_B7E2_10A7F6C78B0C/original.jpg" alt="An illustration of Earth inflating like a balloon."></noscript>
-            
-        
-          <figcaption class="o-media__credit">Adam Maida / The Atlantic</figcaption>
-        
-      </figure>
-    </div>
-  
-
-  <div class="c-offlede__content">
-
-    
-      <h2 class="o-hed c-offlede__hed">
-        <a class="c-offlede__hed-link" href="https://www.theatlantic.com/ideas/archive/2021/04/how-pandemic-proof-world/618682/">
-          What ‘Taking the Pandemic Seriously’ Means Now
-        </a>
-      </h2>
-    
-
-    
-      <div class="o-meta c-offlede__meta">
-        <ul class="o-meta__byline">
-          
-            <li class="o-meta__author">
-              <a href="https://www.theatlantic.com/author/derek-thompson/">Derek Thompson</a>
-            </li>
-          
-        </ul>
-      </div>
-    
-
-  </div>
-
-</article>
-      
-    </div>
-  </div>
+    background-color: black !important;
+    " >
+<!--           
+          <p style="color: white; font-family: Graphik; font-size: 15px">
+            Credit to TheAtlantic.com and The Atlantic Monthly Group for partial website formatting.
+          </p>
+              <h2 style="font-family: 'Chomsky'; font-size: 2vw; color: white">The Raconteur</h2>
+         -->
+    </footer>
+<!--         
 
 
-
-  <!-- <section class="l-hp-top__belt">
-    
-      
-    
-
-    <div class="l-hp-top__belt-stories">
-      
-        <article class="c-card c-card--"
-  
-    id="hp-belt-0"
-  
-> -->
-
-</section>
-
-<footer id="site-footer" class="c-footer lazyload" data-include="module:theatlantic/js/lacroix/components/footer" style="
+<footer id="site-footer" class="c-footer lazyload"  style="
 padding-top: 10px;
 padding-bottom: 10px;
+background-color: black !important;
 " role="contentinfo">
   <div class="c-footer__container">
     
@@ -9156,7 +9044,7 @@ padding-bottom: 10px;
       </p>
     </div>
   </div>
-</footer>
+</footer> -->
 
   
 
