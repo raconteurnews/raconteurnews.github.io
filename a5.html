@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>The Daily Crossword - The Raconteur</title>
+
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="https://www.theatlantic.com/packages/fonts/garamond/AGaramondPro-Regular.woff2"
+      crossorigin=""
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="https://www.theatlantic.com/packages/fonts/graphik/Graphik-Regular-Web.woff2"
+      crossorigin=""
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="https://www.theatlantic.com/packages/fonts/graphik/Graphik-Semibold-Web.woff2"
+      crossorigin=""
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="https://www.theatlantic.com/packages/fonts/goldwyn/goldwyn-medium.woff2"
+      crossorigin=""
+    />
+
+    <link
+      rel="preload"
+      href="https://cdn.theatlantic.com/thumbor/VfuDKUSucdLUhnlV4yfPVspL4go=/0x0:8192x4608/720x405/media/img/mt/2021/04/GettyImages_1294904312/original.jpg"
+      as="image"
+      imagesrcset="https://cdn.theatlantic.com/thumbor/VfuDKUSucdLUhnlV4yfPVspL4go=/0x0:8192x4608/720x405/media/img/mt/2021/04/GettyImages_1294904312/original.jpg 720w, https://cdn.theatlantic.com/thumbor/g-YeBKa53IhYwUb4gZ1NQAdf4Zg=/0x0:8192x4608/750x422/media/img/mt/2021/04/GettyImages_1294904312/original.jpg 750w, https://cdn.theatlantic.com/thumbor/BHvOkNObSIcjkH8gYayQ7NgZqpw=/0x0:8192x4608/828x466/media/img/mt/2021/04/GettyImages_1294904312/original.jpg 828w, https://cdn.theatlantic.com/thumbor/Ln4CFfZJdnbSAg7BWVuuuSaS2hw=/0x0:8192x4608/1224x689/media/img/mt/2021/04/GettyImages_1294904312/original.jpg 1224w, https://cdn.theatlantic.com/thumbor/uoNrYe1OaexcN3KUBA2LBrJr5vw=/0x0:8192x4608/1344x756/media/img/mt/2021/04/GettyImages_1294904312/original.jpg 1344w, https://cdn.theatlantic.com/thumbor/rzj0uRsv6bK7kEbqCkfzmorItCc=/0x0:8192x4608/1440x810/media/img/mt/2021/04/GettyImages_1294904312/original.jpg 1440w"
+      imagesizes="(max-width: 575px) 100vw, (max-width: 672px) calc(100vw - 92px), (max-width: 976px) 672px, (max-width: 1132px) calc(100vw - 412px), 720px"
+    />
+    <meta name="next-head-count" content="57" />
+    <link
+      rel="preload"
+      href="https://cdn.theatlantic.com/_next/static/css/8b8ab1628d0ce4398f71.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.theatlantic.com/_next/static/css/8b8ab1628d0ce4398f71.css"
+      data-n-g=""
+    />
+    <link
+      rel="preload"
+      href="https://cdn.theatlantic.com/_next/static/css/fbdb48421388259dc8c2.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.theatlantic.com/_next/static/css/fbdb48421388259dc8c2.css"
+      data-n-p=""
+    />
+    <link
+      rel="preload"
+      href="https://cdn.theatlantic.com/_next/static/css/21b96bf2a7d1bf065cfa.css"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.theatlantic.com/_next/static/css/21b96bf2a7d1bf065cfa.css"
+    />
+    <noscript data-n-css=""></noscript>
+    <link
+      rel="preload"
+      href="https://cdn.theatlantic.com/_next/static/chunks/commons.dca9c673aba76ec163e4.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.theatlantic.com/_next/static/chunks/c8f7fe3b0e41be846d5687592cf2018ff6e22687.a30bec779dc2fac04303.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.theatlantic.com/_next/static/chunks/22.d8219aaa0efa192caefc.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.theatlantic.com/_next/static/chunks/main-30ec06496604f7e760b0.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.theatlantic.com/_next/static/chunks/webpack-8186d314e2f10c89f100.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.theatlantic.com/_next/static/chunks/framework.773c4c97ae0f7b3da8c9.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.theatlantic.com/_next/static/chunks/commons.dca9c673aba76ec163e4.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.theatlantic.com/_next/static/chunks/551bd525e3929f7c5fe9feb7bf72f3fc72b5ec4b.b94584041b0120e7e12a.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.theatlantic.com/_next/static/chunks/pages/_app-bb6f74fbcf3aff51d529.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.theatlantic.com/_next/static/chunks/5df489884fbb4c2a8642a99996b29ecb2992683e.51ce1ca01e09d2471907.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.theatlantic.com/_next/static/chunks/50bfcf45e6d4b555489483aa6fa6caa01669acf0.c1acc365cc5a92fa9822.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://cdn.theatlantic.com/_next/static/chunks/pages/%5Bchannel%5D/archive/%5B...article%5D-2dea2333ff9fbf50cd29.js"
+      as="script"
+    />
+  </head>
+  <body>
+    <div id="__next">
+      <nav
+        class="Nav_root__1SA33"
+        aria-labelledby="site-navigation"
+        data-category="Site Nav"
+      >
+        <a href="#main-content" class="Nav_skipLink__1N2HV">Skip to content</a>
+        <h2 id="site-navigation" class="Nav_visuallyHide__21HBL">
+          Site Navigation
+        </h2>
+        <div class="Nav_flexContainer__1xYkQ">
+          <ul class="Nav_leftContainer__3Guh9">
+            <li class="Nav_navListItem__H3j9r Nav_visuallyHideOnMobile__k0GE5">
+              <a
+                href="https://raconteurnews.github.io"
+                class="Nav_navLink__1DK7c"
+              >
+                <!-- <img src="./img.png" width="80vw" /> -->
+              </a>
+            </li>
+           
+            
+            <li class="Nav_navListItem__H3j9r Nav_hideOnTablet__1z1Wk">
+              <a
+                class="Nav_navLink__1DK7c"
+                href="https://www.theatlantic.com/most-popular/"
+                data-action="popular"
+              ></a>
+            </li>
+            <li class="Nav_navListItem__H3j9r Nav_hideOnTablet__1z1Wk">
+              <a
+                class="Nav_navLink__1DK7c"
+                href="https://www.theatlantic.com/latest/"
+                data-action="latest"
+              ></a>
+            </li>
+          </ul>
+          <style>
+            
+            @font-face {
+              font-display: swap;
+              font-family: "Chomsky";
+              font-style: italic;
+              font-weight: 600;
+              src: local("Chomsky"), url("./Chomsky.woff") format("woff"),
+                url("./Chomsky.woff") format("woff");
+            }
+            @font-face {
+              font-display: swap;
+              font-family: "it";
+              font-style: italic;
+              font-weight: 600;
+              src:  url("./cmunci.woff") format("woff")
+                ;
+            }
+            @font-face {
+  font-display: swap;
+  font-family: 'ss';
+  font-style: normal;
+  font-weight: 400;
+  /* stylelint-disable indentation */
+  src: url("./cmunss.woff") format("woff"), url("./cmunss.woff") format("woff");
+  /* stylelint-enable indentation */ }
+
+
+  @font-face {
+  font-display: swap;
+  font-family: 'rb';
+  font-style: normal;
+  font-weight: 400;
+  /* stylelint-disable indentation */
+  src: url("./RobotoSlab-Light.woff") format("woff"), url("./RobotoSlab-Light.woff") format("woff");
+  /* stylelint-enable indentation */ }
+
+            @font-face {
+  font-display: swap;
+  font-family: 'title';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Adobe Garamond Pro SemiboldItalic"), url("./cmunrm.woff") format("woff"), url("./cmunrm.woff") format("woff");}
+  @font-face {
+  font-display: swap;
+  font-family: 'itt';
+  font-style: italic;
+  font-weight: 600;
+  src: url("./SourceSerifPro-It.woff") format("woff");}
+
+  @font-face {
+  font-display: swap;
+  font-family: 'CMU';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Adobe Garamond Pro SemiboldItalic"), url("./SourceSerifPro-Regular.woff") format("woff"), url("./cmunrm.woff") format("woff");}
+          </style>
+          <div aria-hidden="true" class="Nav_middleContainer__3xEcQ">
+            <a
+              href="https://www.theatlantic.com"
+              class="Nav_hideAboveMobile__3Goc9 Nav_mobileBigALink__2VK2P"
+              tabindex="-1"
+              data-action="big a"
+            >
+              <img src="./img.png" width="60px" /> </a
+            ><a
+              href="./index.html"
+              class="Nav_navLink__1DK7c"
+              tabindex="-1"
+              data-action="logo"
+            >
+              <h1 style="font-family: 'Chomsky'; font-size: 3.5vw; margin: 0 0">
+                The Raconteur
+              </h1>
+            </a>
+          </div>
+          <ul class="Nav_rightContainer__3wUmM">
+            <li class="Nav_navListItem__H3j9r">
+              <a
+                data-action="Sign In"
+                href="https://accounts.theatlantic.com/login/"
+                class="Nav_navLink__1DK7c Nav_hideOnMobile__o97dO"
+              ></a>
+            </li>
+            <li class="Nav_navListItem__H3j9r">
+              <!-- <a
+                data-action="Subscribe"
+                href="https://www.theatlantic.com/subscribe/navbar/"
+                class="Nav_subscribe__qsKhB"
+              ></a> -->
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="Nav_overlay__1z76X" data-testid="overlay"></div>
+      <main
+        class="ArticleLayout_root__3FA4A"
+        id="main-content"
+        data-category="story page"
+      >
+        <article class="ArticleLayout_article__3Rzuy">
+          <header>
+            <div class="ArticleHeader_ideasRoot__3tc9A">
+              <div class="ArticleHeader_rubric__1Iqj1" id="rubric">
+                <!-- <a
+                  class="ArticleHeader_link__1zKXT"
+                  href="https://www.theatlantic.com/ideas/"
+                  data-action="click link - section rubric"
+                  data-label="https://www.theatlantic.com/ideas/"
+                  >Hello</a
+                > -->
+              </div>
+              <h1 class="ArticleHeader_hed__hCOBy" style="font-family: title;">
+                The Daily Crossword
+
+              </h1>
+              <div class="ArticleMeta_root__277QJ ArticleMeta_ideasRoot__1nBo4">
+                <!-- <p class="ArticleDek_root__3Tnzx ArticleDek_ideasRoot__19m13" style="font-family: title;">
+                  A joint project by two prominent American poets.
+                </p> -->
+                
+                <div class="IdeasArticleByline_root__1p2n0">
+                  <address
+                    id="article-writer-0"
+                    class="IdeasArticleByline_articleAuthor__33B8n"
+                    data-author-id="Author:22849"
+                  >
+                    <div class="IdeasArticleByline_authorContent__GxS0d">
+                      <div class="IdeasArticleByline_authorLink__2wkS1" style="font-family: ss;">
+                        Vignav Ramesh
+                      </div>
+                      <div class="IdeasArticleByline_authorBio__1Ay_c" style="font-family: rb;">
+                        Contributing writer at <em>The Raconteur</em>
+                      </div>
+                    </div>
+                  </address>
+                </div>
+              </div>
+            </div>
+          </header>
+          <div
+            class="ArticleLayoutSection_root__3bI90"
+            data-section-index="article section 1"
+          >
+            <div class="ArticleLayoutSection_main__1ujKr">
+              <div class="ArticleLeadArt_root__37ZFR">
+                <figure class="ArticleLeadArt_figure__2Kkg3">
+                  <!-- <div class="ArticleLeadArt_media__1nnX9"> -->
+                    
+                  <!-- </div> -->
+                  
+                </figure>
+              </div>
+         
+          <div
+            class="ArticleLayoutSection_root__3bI90"
+            data-section-index="article section 2"
+          >
+            <div class="ArticleLayoutSection_main__1ujKr">
+              <div class="ArticleLayoutSection_sectionsContainer__UvRze">
+                <section class="ArticleContent_root__2rc_g fonts-loaded">
+                  <div
+                    data-pos="boxinjector-m"
+                    data-template="hippo/components/ads/article-mobile.html"
+                    data-native="standard,gift"
+                    class="ad-boxinjector-m-wrapper"
+                  >
+                    <gpt-ad
+                      targeting-pos="boxinjector-m2"
+                      targeting-native="standard,gift"
+                      class="c-ad c-ad--article-width s-native s-native--standard s-native--small kvr-native--article-mobile-flex"
+                      format="injector"
+                      lazy-load="2"
+                      sizes-at-0="mobile-wide,,native"
+                      sizes-at-976=""
+                    >
+                    </gpt-ad>
+                  </div>
+
+                 
+                  
+                  
+                  <center>
+                    <iframe src="Crossword.pdf" width="100%" height="1100px">
+                    </iframe>
+                    </center>
+                       
+                    
+ <center>
+                    <button onclick="myFunction()">View Answer Key</button>
+  
+  <div id="myDIV" style="display: none;">
+    <br>
+    <iframe src="AnswerKey.pdf" width="100%" height="1100px">
+    </iframe>
+  </div>
+  </center>
+  
+  <script>
+    function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
+                  
+        <!-- </article> -->
+        
+      </main>
+      <div></div>
+      <div></div>
+    </div>
+
+    <script
+      nomodule=""
+      src="https://cdn.theatlantic.com/_next/static/chunks/polyfills-1b7d7bd3396d845b8dee.js"
+    ></script>
+    <script
+      async=""
+      src="https://cdn.theatlantic.com/_next/static/chunks/c8f7fe3b0e41be846d5687592cf2018ff6e22687.a30bec779dc2fac04303.js"
+    ></script>
+    <script
+      async=""
+      src="https://cdn.theatlantic.com/_next/static/chunks/22.d8219aaa0efa192caefc.js"
+    ></script>
+    <script
+      src="https://cdn.theatlantic.com/_next/static/chunks/main-30ec06496604f7e760b0.js"
+      async=""
+    ></script>
+    <script
+      src="https://cdn.theatlantic.com/_next/static/chunks/webpack-8186d314e2f10c89f100.js"
+      async=""
+    ></script>
+    <script
+      src="https://cdn.theatlantic.com/_next/static/chunks/framework.773c4c97ae0f7b3da8c9.js"
+      async=""
+    ></script>
+    <script
+      src="https://cdn.theatlantic.com/_next/static/chunks/commons.dca9c673aba76ec163e4.js"
+      async=""
+    ></script>
+    <script
+      src="https://cdn.theatlantic.com/_next/static/chunks/551bd525e3929f7c5fe9feb7bf72f3fc72b5ec4b.b94584041b0120e7e12a.js"
+      async=""
+    ></script>
+    <script
+      src="https://cdn.theatlantic.com/_next/static/chunks/pages/_app-bb6f74fbcf3aff51d529.js"
+      async=""
+    ></script>
+    <script
+      src="https://cdn.theatlantic.com/_next/static/chunks/5df489884fbb4c2a8642a99996b29ecb2992683e.51ce1ca01e09d2471907.js"
+      async=""
+    ></script>
+    <script
+      src="https://cdn.theatlantic.com/_next/static/chunks/50bfcf45e6d4b555489483aa6fa6caa01669acf0.c1acc365cc5a92fa9822.js"
+      async=""
+    ></script>
+    <script
+      src="https://cdn.theatlantic.com/_next/static/chunks/pages/%5Bchannel%5D/archive/%5B...article%5D-2dea2333ff9fbf50cd29.js"
+      async=""
+    ></script>
+    <script
+      src="https://cdn.theatlantic.com/_next/static/cAKuwd707533qIFdWVibl/_buildManifest.js"
+      async=""
+    ></script>
+    <script
+      src="https://cdn.theatlantic.com/_next/static/cAKuwd707533qIFdWVibl/_ssgManifest.js"
+      async=""
+    ></script>
+  </body>
+</html>
